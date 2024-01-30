@@ -133,8 +133,13 @@ text-shadow: 0px 0px 3px aqua;
 }
 
 #socials_links{
+    transition: all 0.3s ease-in-out;
     color: var(--tx-secondary);
     padding-top: 10px;
+}
+
+#socials_links:hover{
+    text-shadow: 0px 0px 10px aqua;
 }
 
 

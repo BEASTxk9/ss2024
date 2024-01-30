@@ -40,6 +40,10 @@ document.write(`
 
 <!-- loader -->
 <script src="./COMPONENTS/loader.js"></script>
+<!-- scrolltotopbtn -->
+<script src="./COMPONENTS/scroll_to_top.js"></script>
+<!-- socials -->
+<script src="./COMPONENTS/socials.js"></script>
 <!-- #navbar -->
 <script src="./COMPONENTS/navbar.js"></script>
 <!-- #cvbtn -->
