@@ -1,0 +1,127 @@
+#landing_sec{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url("https://i.postimg.cc/tJLk2tNR/brow-guy-glasses-and-curly-hair-and-fade-facing-left-coding-with-a-laptop-hide-the-background-remo.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+}
+
+/* content */
+#landing_sec #subheading{
+    color: var(--tx-heighlight);
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#landing_sec #heading{
+    color: var(--tx-secondary);
+    letter-spacing: 3px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+#lets_get_started{
+    background-color: transparent;
+    color: var(--tx-secondary);
+    border: var(--btn_border);
+    border-top-left-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    padding: 10px;
+    font-size: 1.2rem;   
+}
+
+
+
+
+/* cards */
+#cards_con{
+position: absolute;
+bottom: -8.24rem;
+}
+
+#landing_sec_cards{
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: var(--tx-secondary);
+    background: linear-gradient(to bottom, var(--bg-secondary) 50%, var(--bg-primary) 50%);
+    transition: var(--g_transition);
+    background-color: var(--bg-secondary);
+    border-top-right-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+}
+
+#landing_sec_cards h6{
+    font-size: 1.6rem;
+    mix-blend-mode: normal;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#landing_sec_cards p{
+    font-size: 1.1rem;
+}
+
+.center-card{
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.789);
+}
+#card-icon{
+    color: var(--tx-heighlight);
+}
+
+
+
+
+
+@media screen and (max-width: 1023.5px){
+    #cards_con{
+display: none;
+        }
+}
+@media screen and (max-width: 767.5px){
+
+    #landing_sec #subheading{
+
+        font-size: 1rem;
+
+    }
+    #landing_sec #heading{
+        font-size: 4rem;
+    }
+    #lets_get_started{
+        font-size: 1.2rem;   
+    }
+}
+
+
+
+
+
+#about_sec{
+    padding-top: 14rem;
+    color: var(--tx-secondary);
+    font-size: 1.1rem;
+}
+
+#about_heading{
+font-size: 3rem;
+color: var(--tx-secondary);
+}
+
+#about_subheading{
+font-size: 1.2rem;
+}
+
+#info_headings{
+    border-bottom: 1px solid var(--tx-heighlight);
+}
+
+
+
+
+

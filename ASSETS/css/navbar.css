@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
+
+
+nav{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+}
+
+
+
+#navbar_logo{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--tx-secondary);
+    mix-blend-mode: difference;
+    z-index: 4000;
+}
+
+
+.navbar_toggle{
+border: none !important;
+color: var(--tx-secondary);
+mix-blend-mode: difference;
+background-color: transparent !important;
+}
+
+
+/* navbar content */
+.offcanvas{
+background-color: white;
+color: var(--tx-secondary);
+}

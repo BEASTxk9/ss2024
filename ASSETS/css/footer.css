@@ -1,0 +1,51 @@
+footer{
+    background-color: var(--bg-primary);
+    color: var(--tx-secondary);
+    padding-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin-left: -2rem;
+}
+
+#footer-mid-row{
+    border-top: 1px solid rgba(128, 128, 128, 0.651);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.651);
+    padding: 5px;
+}
+#footer-mid-row a{
+    text-decoration: none;
+    color: var(--g_1color);
+    letter-spacing: 2px;
+    padding-right: 5px;
+    transition: var(--g_transition);
+}
+#footer-mid-row a:hover{
+    color: var(--g_2color);
+}
+
+
+#footer_icons{
+    text-align: end;
+}
+
+
+@media screen and (max-width: 991.5px){
+    #footer_nav, #footer_icons{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+#linkedin{
+    color: var(--tx-secondary);
+    text-decoration: none;
+}

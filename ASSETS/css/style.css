@@ -1,0 +1,55 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+
+
+/* CSS VARIABLES */
+:root{
+/* text-colors */
+--tx-primary: black;
+--tx-secondary: white;
+--tx-heighlight: aqua;
+
+/* background-colors */
+--bg-primary: black;
+--bg-secondary: #121212;
+
+
+--radius: 15px;
+--btn_border: 3px solid var(--tx-heighlight);
+}
+
+/* ALL */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto mono;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+section{
+    min-height: 100vh;
+}
+
+/* every 2nd section will be a differnt color */
+section:nth-child(odd){
+    background-color: var(--bg-primary);
+}
+section:nth-child(even){
+    background-color: var(--bg-secondary);
+}
+
+.heighlight{
+    color: var(--tx-heighlight);
+}
+
+
+/* HEADER */
+
+
+/* MAIN */
+
+
+/* FOOTER */
