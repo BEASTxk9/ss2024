@@ -33,4 +33,6 @@ background-color: transparent !important;
 .offcanvas{
 background-color: white;
 color: var(--tx-secondary);
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
 }
