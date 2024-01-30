@@ -39,7 +39,7 @@ document.getElementById("cvbtn").innerHTML = `
        outline: none;
        cursor: pointer;
        position: relative;
-       font-size: 14px;
+       font-size: 1rem;   
        font-weight: 500;
        line-height: 19px;
        -webkit-appearance: none;
@@ -48,6 +48,7 @@ document.getElementById("cvbtn").innerHTML = `
        transition: background 0.3s;
        color: var(--color);
        background: var(--bg, var(--background));
+       font-family: roboto mono;
      }
      
      .continue-application > div {
