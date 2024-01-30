@@ -34,8 +34,8 @@ document.getElementById("cvbtn").innerHTML = `
        --shadow: rgba(13, 15, 25, .2);
        color: var(--tx-secondary);
        border: var(--btn_border);
-       border-top-left-radius: var(--radius);
-       border-bottom-right-radius: var(--radius);
+       border-top-left-radius: 10px;
+       border-bottom-right-radius: 10px;
        outline: none;
        cursor: pointer;
        position: relative;
