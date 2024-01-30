@@ -1,22 +1,13 @@
 // Display the loader when the page starts loading
 document.addEventListener("DOMContentLoaded", function () {
-  let loader = document.getElementById("loader");
-  let headerContent = document.querySelector("header");
-  let mainContent = document.querySelector("main");
-  let footerContent = document.querySelector("footer");
+    let loader = document.getElementById("loader");
+    let mainContent = document.querySelector("main");
 
-  // Hide the header, main, and footer content while the loader is running
-  headerContent.style.display = "none";
-  mainContent.style.display = "none";
-  footerContent.style.display = "none";
-
-  // Hide the loader after 2 seconds
-  setTimeout(function () {
-      loader.style.display = "none";   // Hide the loader
-      headerContent.style.display = "block"; // Show the header content
-      mainContent.style.display = "block";   // Show the main content
-      footerContent.style.display = "block"; // Show the footer content
-  }, 2000); // Adjust the duration as needed
+    // Hide the loader after 2 seconds
+    setTimeout(function () {
+        loader.style.display = "none";   // Hide the loader
+        mainContent.style.opacity = "1"; // Show the main content
+    }, 2100);
 });
 
 

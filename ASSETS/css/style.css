@@ -29,6 +29,17 @@
     display: none;
 }
 
+/* USED TO HIDE PAGE CONTENT WHEN USER RELOADS */
+body{
+    background-color: var(--bg-primary);
+    color: var(--bg-primary);
+}
+button{
+    color: var(--tx-primary);
+    border: 1px solid black;
+    background-color: var(--bg-primary);
+}
+
 section{
     min-height: 100vh;
 }
