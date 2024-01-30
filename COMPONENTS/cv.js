@@ -32,11 +32,13 @@ document.getElementById("cvbtn").innerHTML = `
        --pencil-middle: #fff;
        --pencil-bottom: #5C86FF;
        --shadow: rgba(13, 15, 25, .2);
-       border: 1px solid white;
+       color: var(--tx-secondary);
+       border: var(--btn_border);
+       border-top-left-radius: var(--radius);
+       border-bottom-right-radius: var(--radius);
        outline: none;
        cursor: pointer;
        position: relative;
-       border-radius: 5px;
        font-size: 14px;
        font-weight: 500;
        line-height: 19px;
