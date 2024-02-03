@@ -17,6 +17,8 @@ document.getElementsByTagName("head")[0].innerHTML = `
 <link rel="stylesheet" href="../ASSETS/css/navbar.css">
 <!-- index CSS -->
 <link rel="stylesheet" href="../ASSETS/css/index.css">
+<!-- projects CSS -->
+<link rel="stylesheet" href="../ASSETS/css/projects.css">
 <!-- footer CSS -->
 <link rel="stylesheet" href="../ASSETS/css/footer.css">
 
@@ -39,17 +41,17 @@ document.write(`
 <!-- COMPONENTS -->
 
 <!-- loader -->
-<script src="./COMPONENTS/loader.js"></script>
+<script src="../COMPONENTS/loader.js"></script>
 <!-- scrolltotopbtn -->
-<script src="./COMPONENTS/scroll_to_top.js"></script>
+<script src="../COMPONENTS/scroll_to_top.js"></script>
 <!-- socials -->
-<script src="./COMPONENTS/socials.js"></script>
+<script src="../COMPONENTS/socials.js"></script>
 <!-- #navbar -->
-<script src="./COMPONENTS/navbar.js"></script>
+<script src="../COMPONENTS/navbar.js"></script>
 <!-- #cvbtn -->
-<script src="./COMPONENTS/cv.js"></script>
+<script src="../COMPONENTS/cv.js"></script>
 <!-- #footer -->
-<script src="./COMPONENTS/footer.js"></script>
+<script src="../COMPONENTS/footer.js"></script>
 
 <!-- AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

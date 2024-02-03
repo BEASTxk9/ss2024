@@ -10,9 +10,12 @@ nav{
     justify-content: space-between;
 }
 
+#navbar_logo_a{
+text-decoration: none;
+}
 
 
-#navbar_logo{
+#navbar_logo, .navbar_toggle{
     font-size: 2rem;
     font-weight: 900;
     color: var(--tx-secondary);
@@ -21,7 +24,12 @@ nav{
 }
 
 
+
+
+
 .navbar_toggle{
+position: fixed;
+right: 15px;
 border: none !important;
 color: var(--tx-secondary);
 mix-blend-mode: difference;
@@ -35,4 +43,22 @@ background-color: white;
 color: var(--tx-secondary);
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
+}
+
+
+.offcanvas-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.offcanvas-body a{
+    color: var(--tx-primary);
+    text-decoration: none;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.offcanvas a{
+    border: var(--btn_border);
+    width: 50%;
 }
