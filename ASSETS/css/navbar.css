@@ -24,9 +24,9 @@ text-decoration: none;
     z-index: 4000;
 }
 
-
-
-
+#navbar_logo{
+    z-index: 5001;
+}
 
 .navbar_toggle{
 /* position: fixed; */
@@ -78,11 +78,31 @@ border-bottom-right-radius: 5px;
     border-right: 1px solid rgb(68, 66, 66);
 }
 
-
-
-
 @media only screen and (max-width: 400px){
     .offcanvas-body a{
         font-size: 1rem;
     }
+}
+
+.offcanvas-start{
+    width: 100%;
+    z-index: 5000;
+}
+
+.offcanvas-start .offcanvas-header{
+justify-content: end;
+}
+
+#close_projects_btn{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 1.7rem;
+    right: 2.5rem;
+    border: none;
+}
+
+#close_projects_icon{
+    color: white;
+    background-color: transparent;
 }
