@@ -16,6 +16,7 @@ text-decoration: none;
 
 
 #navbar_logo, .navbar_toggle{
+    position: relative;
     font-size: 2rem;
     font-weight: 900;
     color: var(--tx-secondary);
@@ -28,7 +29,7 @@ text-decoration: none;
 
 
 .navbar_toggle{
-position: fixed;
+/* position: fixed; */
 right: 15px;
 border: none !important;
 color: var(--tx-secondary);
@@ -39,7 +40,7 @@ background-color: transparent !important;
 
 /* navbar content */
 .offcanvas{
-background-color: white;
+background-color: var(--bg-secondary);
 color: var(--tx-secondary);
 border-bottom-left-radius: 5px;
 border-bottom-right-radius: 5px;
@@ -53,12 +54,35 @@ border-bottom-right-radius: 5px;
 }
 
 .offcanvas-body a{
-    color: var(--tx-primary);
+    color: var(--tx-secondary);
     text-decoration: none;
     grid-template-columns: repeat(2,minmax(0,1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.offcanvas-body a:hover{
+    background-color: rgb(68, 66, 66);
 }
 
 .offcanvas a{
-    border: var(--btn_border);
     width: 50%;
+    border-bottom: 1px solid rgb(68, 66, 66);
+}
+
+.offcanvas a:nth-child(1){
+    border-right: 1px solid rgb(68, 66, 66);
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+    .offcanvas-body a{
+        font-size: 1rem;
+    }
 }

@@ -78,21 +78,41 @@ bottom: -8.24rem;
 display: none;
         }
 }
+
 @media screen and (max-width: 767.5px){
 
+    #landing_sec{
+        background-image: url("https://i.postimg.cc/tJLk2tNR/brow-guy-glasses-and-curly-hair-and-fade-facing-left-coding-with-a-laptop-hide-the-background-remo.png");
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
     #landing_sec #subheading{
-
         font-size: 1rem;
-
     }
     #landing_sec #heading{
         font-size: 4rem;
     }
     #lets_get_started{
-        font-size: 1.2rem;   
+        font-size: 1.2rem;  
+        padding: 5px; 
+    }
+
+    #socials_links{
+        font-size: 1rem;
     }
 }
 
+@media screen and (max-width: 538.5px){
+    #landing_sec #heading{
+        font-size: 2.1rem;
+    }
+    #landing_sec #subheading{
+        font-size: 0.6rem;
+    }
+
+}
 
 
 
@@ -103,6 +123,7 @@ display: none;
     padding-top: 16rem;
     color: var(--tx-secondary);
     font-size: 1.1rem;
+    padding-bottom: 4rem;
 }
 
 #about_heading{
